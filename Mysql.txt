@@ -1,0 +1,5 @@
+Execute these all commands in mysql before running the project 
+
+create database quiz;
+use quiz;
+create table ques(sno int(99) primary key,questions varchar(99),a varchar(99),b varchar(99),c varchar(99),d varchar(99),opt enum('a','b','c','d'));
